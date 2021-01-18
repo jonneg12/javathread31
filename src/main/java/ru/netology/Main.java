@@ -27,7 +27,7 @@ public class Main {
         if (!toyThread.isAlive()) {
             System.out.println("Toy thread is stopped.");
         } else {
-            System.out.println("Something wrong - toy thread is not stopped!");
+            System.out.println("Something goes wrong - toy thread is not stopped!");
         }
     }
 
